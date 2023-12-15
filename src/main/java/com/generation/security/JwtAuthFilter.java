@@ -1,4 +1,4 @@
-package com.generation.blogpessoal.security;
+package com.generation.security;
 
 import io.jsonwebtoken.ExpiredJwtException;
 import io.jsonwebtoken.MalformedJwtException;
