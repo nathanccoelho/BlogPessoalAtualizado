@@ -1,8 +1,8 @@
-package com.generation.controller;
+package com.generation.blogpessoal.controller;
 
-import com.generation.model.Postagem;
-import com.generation.repository.PostagemRepository;
-import com.generation.repository.TemaRepository;
+import com.generation.blogpessoal.model.Postagem;
+import com.generation.blogpessoal.repository.PostagemRepository;
+import com.generation.blogpessoal.repository.TemaRepository;
 import jakarta.validation.Valid;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;

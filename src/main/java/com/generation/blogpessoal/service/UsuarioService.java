@@ -1,4 +1,4 @@
-package com.generation.service;
+package com.generation.blogpessoal.service;
 
 import java.util.Optional;
 
@@ -11,10 +11,10 @@ import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
 import org.springframework.stereotype.Service;
 import org.springframework.web.server.ResponseStatusException;
 
-import com.generation.model.UsuarioLogin;
-import com.generation.model.Usuario;
-import com.generation.repository.UsuarioRepository;
-import com.generation.security.JwtService;
+import com.generation.blogpessoal.model.UsuarioLogin;
+import com.generation.blogpessoal.model.Usuario;
+import com.generation.blogpessoal.repository.UsuarioRepository;
+import com.generation.blogpessoal.security.JwtService;
 
 @Service
 public class UsuarioService {
